@@ -1,0 +1,88 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+table {
+    border-collapse: collapse;  
+}
+#table1 {
+    border: 1px solid #ffffff;
+}
+  
+a { color: #000000; }
+a:active { color: #000000; }
+a:visited { color: #000000; }
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+  
+.search {
+    width: 100%;
+    position: static;
+    display: flex;
+}
+  
+.searchTerm {
+    width: 70px;
+    border: 1px solid #000000;
+    border-right: yes;
+    padding: 5px;
+    height: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+  
+.searchTerm:focus{
+    color: #000000;
+}
+  
+.searchButton {
+    width: 40px;
+    height: 30px;
+    border: 1px solid #FF7F23;
+    background: #FF7F23;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+  
+div.a {
+    font-size: 15px;
+}
+
+div.b {
+    font-size: 14px;
+}
+
+div.bb {
+    font-size: 14px;
+    color: #FF7F27;
+}
+
+div.c {
+    font-size: 13px;
+}
+
+input[type=button], input[type=submit] {
+    height: 28px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 0px 16px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
