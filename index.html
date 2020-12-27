@@ -19,7 +19,7 @@
       var res = xaddress.substr(0,1);          
       var n = parseInt(xaddress);
       
-      if (n > 0 && n <= 5 && res != "0") {
+      if (n > 0 && n <= 7 && res != "0") {
       document.getElementById('search_card').innerHTML = "<img src='api/qr/" + xaddress + ".png' width='200' height='272' />";   
     } else {
       document.getElementById('search_card').innerHTML = "<div class=wrapper><br />&nbsp;<br />CARD NOT MINED<div>";
