@@ -20,7 +20,7 @@
       var n = parseInt(xaddress);
       
       if (n > 0 && n <= 5 && res != "0") {
-      document.getElementById('search_card').innerHTML = "<img src='imagen/" + xaddress + ".png' width='200' height='272' />";   
+      document.getElementById('search_card').innerHTML = "<img src='api/qr/" + xaddress + ".png' width='200' height='272' />";   
     } else {
       document.getElementById('search_card').innerHTML = "<div class=wrapper><br />&nbsp;<br />CARD NOT MINED<div>";
     }
@@ -65,7 +65,7 @@
 
   <br />
   <table class="center"><tr>
-    <td><class id='search_card'><img src="imagen/1.png" width="200" height="272" /></class</td>
+    <td><class id='search_card'><img src="api/qr/1.png" width="200" height="272" /></class</td>
   </tr></table>
 </body>
 </html>
