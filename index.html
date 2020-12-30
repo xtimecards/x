@@ -19,7 +19,7 @@
       var res = xaddress.substr(0,1);          
       var n = parseInt(xaddress);
       
-      if (n > 0 && n <= 1 && res != "0") {
+      if (n > 0 && n <= 2 && res != "0") {
       document.getElementById('search_card').innerHTML = "<img src='api/qr/" + xaddress + ".png' width='200' height='272' />";   
     } else {
       document.getElementById('search_card').innerHTML = "<div class=wrapper><br />&nbsp;<br />CARD NOT MINED<div>";
@@ -43,7 +43,7 @@
       </td></tr>
     <tr>
       <td height="50"><div class="b"><div class="wrapper">
-        Currently Supply = <b>1</b>&nbsp;&nbsp;XEEEE
+        Currently Supply = <b>2</b>&nbsp;&nbsp;XEEEE
       <br />GENESIS CARD = Xxxxxxx x, DSDS
       <br />Xxxx xxx xx xxxxxx XXX, xxxx xxxxxxxxx xx xxxxx xxxx xxxx.
       </div></div></td>     
