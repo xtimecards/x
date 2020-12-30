@@ -1,14 +1,12 @@
 
-
-    {
-        "attributes": [
-          {
-            "trait_type": "special", 
-            "value": "NO"
-          }
-      ], 
-    {
-   "description": "222222", 
+{
+   "attributes": [
+      {
+        "trait_type": "special", 
+        "value": "NO"
+      }
+    ], 
+    "description": "222222", 
     "external_url": "https://xtimecards.github.io/x/", 
     "image": "https://xtimecards.github.io/x/api/qr/2.png", 
     "name": "C222"
